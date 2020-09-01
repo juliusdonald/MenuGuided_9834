@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="32dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dialog.DialogFragment">
+
+    <TextView
+        android:id="@+id/fullname_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"
+        style="@style/TextAppearance.MaterialComponents.Headline4"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/exit_btn"
+        android:text="Exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

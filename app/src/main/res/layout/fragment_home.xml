@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="32dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:text="@string/first_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline1"
+        android:id="@+id/h1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline2"
+        android:id="@+id/h2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline3"
+        android:id="@+id/h3_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:id="@+id/h4_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:id="@+id/h5_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:id="@+id/h6_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:id="@+id/s1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle2"
+        android:id="@+id/s2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:id="@+id/b1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:id="@+id/b2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Button"
+        android:id="@+id/btn_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:id="@+id/caption_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:id="@+id/over_line_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
